@@ -8,7 +8,7 @@ interface Tour {
 	id: string;
 	title: string;
 	name: string;
-	image?: string;
+	images?: string;
 	price: {
 		amount: number;
 		currency: string;
@@ -25,7 +25,11 @@ export function TourPreview({ tour }: { tour: Tour }) {
 					<Image
 						alt={tour.title}
 						className="object-cover"
-						src={tour.image || "/images/placeholder.webp"}
+						src={
+							tour.images?.[0]
+								? `/tours/${tour.images[0]}`
+								: "/placeholder.webp"
+						}
 						fill
 					/>
 				</div>

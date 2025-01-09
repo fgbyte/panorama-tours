@@ -1,9 +1,10 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import TourContent from "@/components/TourContent";
+import { Button } from "@/components/ui/button";
 import { config } from "@/config";
 import mock from "@/data/mock.json";
-import { signOgImageUrl } from "@/lib/og-image";
+import Link from "next/link";
 
 const { tours } = mock;
 
@@ -22,17 +23,11 @@ export async function generateMetadata({
 			title: "Blog post not found",
 		};
 	}
-	const { name, description, images } = result;
-	const generatedOgImage = signOgImageUrl({ name, brand: config.blog.name });
+	const { name, description } = result;
 
 	return {
 		name,
 		description,
-		openGraph: {
-			name,
-			description,
-			images: images ? [generatedOgImage, images] : [generatedOgImage],
-		},
 	};
 }
 
@@ -41,6 +36,9 @@ const Page = async ({ params: { id } }: { params: Params }) => {
 		<div>
 			<div className="container mx-auto px-5">
 				<Header />
+				<Button>
+					<Link href={"/"}>Go Back</Link>
+				</Button>
 				<TourContent id={id} />
 
 				<Footer />

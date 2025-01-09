@@ -35,10 +35,7 @@
 			"difficulty": "moderate",
 			"maxGroupSize": 5,
 			"languages": ["English", "Spanish"],
-			"images": [
-				"https://example.com/tour1-main.jpg",
-				"https://example.com/tour1-gallery1.jpg"
-			],
+			"images": ["images/1.jpg", "images/2.jpg"],
 			"rating": {
 				"average": 4.8,
 				"reviews": 124
@@ -46,6 +43,67 @@
 			"availability": {
 				"nextAvailable": "2024-01-15",
 				"seasonality": ["Spring", "Summer"]
+			}
+		},
+		{
+			"id": "tour_002",
+			"name": "Machu Picchu Heritage Trek",
+			"description": "Discover the ancient Inca civilization through a guided trek to Machu Picchu. Experience breathtaking mountain views and archaeological wonders.",
+			"duration": {
+				"days": 7,
+				"nights": 6
+			},
+			"price": {
+				"amount": 300,
+				"currency": "USD",
+				"perPerson": true
+			},
+			"location": {
+				"country": "Peru",
+				"region": "Cusco",
+				"startingPoint": "Cusco City"
+			},
+			"included": [
+				"Hotel accommodation",
+				"Professional guide",
+				"Train tickets",
+				"Entrance fees",
+				"Breakfast and dinner",
+				"Camping equipment",
+				"Porter service"
+			],
+			"itinerary": [
+				{
+					"day": 1,
+					"title": "Cusco Arrival",
+					"activities": [
+						"Airport reception",
+						"Hotel check-in",
+						"City tour orientation",
+						"Welcome dinner"
+					]
+				},
+				{
+					"day": 2,
+					"title": "Sacred Valley Exploration",
+					"activities": [
+						"Pisac ruins visit",
+						"Local market exploration",
+						"Ollantaytambo fortress"
+					]
+				}
+			],
+			"difficulty": "challenging",
+			"maxGroupSize": 8,
+			"languages": ["English", "Spanish", "French"],
+			"images": ["images/2.jpg", "images/1.jpg"],
+			"rating": {
+				"average": 4.9,
+				"reviews": 89
+			},
+			"availability": {
+				"nextAvailable": "2024-02-01",
+				"seasonality": ["Spring", "Summer", "Fall"]
 			}
 		}
 	]

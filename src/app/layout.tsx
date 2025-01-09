@@ -1,5 +1,4 @@
 import { config } from "@/config";
-import { signOgImageUrl } from "@/lib/og-image";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -19,11 +18,6 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: config.blog.metadata.title.default,
 		description: config.blog.metadata.description,
-		images: [
-			signOgImageUrl({
-				name: config.blog.name,
-			}),
-		],
 	},
 };
 
