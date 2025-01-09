@@ -1,9 +1,13 @@
 import { config } from "@/config";
 import { signOgImageUrl } from "@/lib/og-image";
-import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import "./globals.css";
-import { inter } from "@/app/fonts/fonts";
+import { Inter } from "next/font/google";
+
+const inter = Inter({
+	subsets: ["latin"],
+	variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
 	title: {
@@ -31,10 +35,8 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={cn(
-					"min-h-screen bg-background font-sans antialiased max-w-6xl m-auto text-black",
-					inter.className,
-				)}
+				className={`min-h-screen bg-background font-sans antialiased max-w-6xl m-auto text-black
+					${inter.className}`}
 			>
 				<main>{children}</main>
 			</body>
