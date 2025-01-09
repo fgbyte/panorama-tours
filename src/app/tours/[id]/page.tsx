@@ -4,6 +4,7 @@ import TourContent from "@/components/TourContent";
 import { Button } from "@/components/ui/button";
 import { config } from "@/config";
 import mock from "@/data/mock.json";
+import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
 const { tours } = mock;
@@ -37,7 +38,10 @@ const Page = async ({ params: { id } }: { params: Params }) => {
 			<div className="container mx-auto px-5">
 				<Header />
 				<Button>
-					<Link href={"/"}>Go Back</Link>
+					<Link className="flex items-center" href={"/"}>
+						{/* <ArrowLeft className="h-5 w-5 mr-2" /> */}
+						Go Back
+					</Link>
 				</Button>
 				<TourContent id={id} />
 
