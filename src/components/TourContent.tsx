@@ -22,7 +22,9 @@ export default function TourContent({ id }: { id: string }) {
 				<div className="bg-gray-50 p-4 rounded-lg">
 					<h3 className="font-semibold mb-2">Duration</h3>
 					<p>
-						{tour.duration.days} days, {tour.duration.nights} nights
+						{tour.duration.days < 1
+							? `${tour.duration.hours} hours`
+							: `${tour.duration.days} days, ${tour.duration.nights} nights`}
 					</p>
 				</div>
 				<div className="bg-gray-50 p-4 rounded-lg">

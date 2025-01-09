@@ -40,7 +40,7 @@ export function TourPreview({ tour }: { tour: Tour }) {
 				<div className="prose lg:prose-lg leading-relaxed md:text-lg line-clamp-4">
 					{tour.description}
 				</div>
-				<div className="text-sm">{tour.maxGroupSize} people</div>
+				<p className="text-sm font-bold">Up to {tour.maxGroupSize} people</p>
 			</div>
 		</div>
 	);

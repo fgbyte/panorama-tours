@@ -5,8 +5,9 @@
 			"name": "Amazon Rainforest Adventure",
 			"description": "Explore the stunning Amazon rainforest with expert guides. Experience wildlife encounters and indigenous culture.",
 			"duration": {
-				"days": 5,
-				"nights": 4
+				"days": 0,
+				"nights": 0,
+				"hours": 2
 			},
 			"price": {
 				"amount": 200,
@@ -51,7 +52,8 @@
 			"description": "Discover the ancient Inca civilization through a guided trek to Machu Picchu. Experience breathtaking mountain views and archaeological wonders.",
 			"duration": {
 				"days": 7,
-				"nights": 6
+				"nights": 6,
+				"hours": 0
 			},
 			"price": {
 				"amount": 300,
