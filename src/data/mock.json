@@ -28,7 +28,7 @@
 			],
 			"itinerary": [
 				{
-					"day": 1,
+					"day": 0,
 					"title": "Arrival and Welcome",
 					"activities": ["Airport pickup", "Lodge check-in", "Welcome dinner"]
 				}
