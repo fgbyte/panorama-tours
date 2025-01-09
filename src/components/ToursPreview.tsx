@@ -25,11 +25,7 @@ export function TourPreview({ tour }: { tour: Tour }) {
 					<Image
 						alt={tour.title}
 						className="object-cover"
-						src={
-							tour.images?.[0]
-								? `/tours/${tour.images[0]}`
-								: "/placeholder.webp"
-						}
+						src={`/tours/${tour.images}` || "/placeholder.webp"}
 						fill
 					/>
 				</div>

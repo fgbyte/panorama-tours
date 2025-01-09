@@ -10,6 +10,7 @@ const tours = mockTours.map((tour) => ({
 	...tour,
 	title: tour.name,
 	maxGroupSize: tour.maxGroupSize || 0,
+	images: tour.images[0], // Use first image from the array
 }));
 
 const Page = async ({
