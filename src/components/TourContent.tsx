@@ -98,8 +98,9 @@ export default function TourContent({ id }: { id: string }) {
 							className="flex items-center gap-2 justify-center"
 							href={`https://wa.me/41796915893?text=${id}%20Hello`}
 						>
+							{/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
 							<svg
-								class="mr-2 h-8 w-8"
+								className="mr-2 h-8 w-8"
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 48 48"
 								width="480"
