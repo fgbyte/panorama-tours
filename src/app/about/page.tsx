@@ -27,33 +27,33 @@ Love,
 Samantha`;
 
 export async function generateMetadata() {
-  return {
-    title: "About Me",
-    description: "Learn more about Samantha and her travel adventures",
-    openGraph: {
-      title: "About Me",
-      description: "Learn more about Samantha and her travel adventures",
-      images: [
-        signOgImageUrl({
-          title: "Samantha",
-          label: "About Me",
-          brand: config.blog.name,
-        }),
-      ],
-    },
-  };
+	return {
+		title: "About Me",
+		description: "Learn more about Samantha and her travel adventures",
+		openGraph: {
+			title: "About Me",
+			description: "Learn more about Samantha and her travel adventures",
+			images: [
+				signOgImageUrl({
+					name: "Samantha",
+					label: "About Me",
+					brand: config.blog.name,
+				}),
+			],
+		},
+	};
 }
 
 const Page = async () => {
-  return (
-    <div className="container mx-auto px-5">
-      <Header />
-      <div className="prose lg:prose-lg dark:prose-invert m-auto mt-20 mb-10 blog-content">
-        <Markdown>{content}</Markdown>
-      </div>
-      <Footer />
-    </div>
-  );
+	return (
+		<div className="container mx-auto px-5">
+			<Header />
+			<div className="prose lg:prose-lg dark:prose-invert m-auto mt-20 mb-10 blog-content">
+				<Markdown>{content}</Markdown>
+			</div>
+			<Footer />
+		</div>
+	);
 };
 
 export default Page;
