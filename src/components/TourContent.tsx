@@ -70,8 +70,7 @@ export default function TourContent({ id }: { id: string }) {
 							{tour.languages.join(", ")}
 						</p>
 						<p>
-							<span className="font-semibold">Rating:</span>{" "}
-							{tour.rating.average}/5 ({tour.rating.reviews} reviews)
+							<span className="font-semibold">Rating:</span> {tour.rating.stars}
 						</p>
 					</div>
 				</div>

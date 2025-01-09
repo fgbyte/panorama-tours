@@ -39,7 +39,8 @@
 			"images": ["images/1.jpg", "images/2.jpg"],
 			"rating": {
 				"average": 4.8,
-				"reviews": 124
+				"reviews": 124,
+				"stars": "⭐⭐⭐⭐⭐"
 			},
 			"availability": {
 				"nextAvailable": "2024-01-15",
@@ -101,7 +102,8 @@
 			"images": ["images/2.jpg", "images/1.jpg"],
 			"rating": {
 				"average": 4.9,
-				"reviews": 89
+				"reviews": 89,
+				"stars": "⭐⭐⭐⭐⭐"
 			},
 			"availability": {
 				"nextAvailable": "2024-02-01",
