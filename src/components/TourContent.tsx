@@ -96,7 +96,7 @@ export default function TourContent({ id }: { id: string }) {
 					<Button className="py-6 sm:w-1/2 hover:bg-green-500">
 						<Link
 							className="flex items-center gap-2 justify-center"
-							href={`https://wa.me/41796915893?text=${id}%20Hello`}
+							href={`https://wa.me/41796915893?text=*${id}*%20Hello%20I%20am%20interested%20in%20your%20Tour%20`}
 						>
 							{/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
 							<svg
@@ -129,7 +129,7 @@ export default function TourContent({ id }: { id: string }) {
 									clip-rule="evenodd"
 								/>
 							</svg>
-							Reserve Now
+							Book Now
 						</Link>
 					</Button>
 				</div>
