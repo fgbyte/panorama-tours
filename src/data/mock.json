@@ -1,0 +1,52 @@
+{
+	"tours": [
+		{
+			"id": "tour_001",
+			"name": "Amazon Rainforest Adventure",
+			"description": "Explore the stunning Amazon rainforest with expert guides. Experience wildlife encounters and indigenous culture.",
+			"duration": {
+				"days": 5,
+				"nights": 4
+			},
+			"price": {
+				"amount": 200,
+				"currency": "USD",
+				"perPerson": true
+			},
+			"location": {
+				"country": "Peru",
+				"region": "Amazon",
+				"startingPoint": "Puerto Maldonado"
+			},
+			"included": [
+				"Airport transfers",
+				"Accommodation",
+				"Meals",
+				"Guide services",
+				"Local transportation"
+			],
+			"itinerary": [
+				{
+					"day": 1,
+					"title": "Arrival and Welcome",
+					"activities": ["Airport pickup", "Lodge check-in", "Welcome dinner"]
+				}
+			],
+			"difficulty": "moderate",
+			"maxGroupSize": 5,
+			"languages": ["English", "Spanish"],
+			"images": [
+				"https://example.com/tour1-main.jpg",
+				"https://example.com/tour1-gallery1.jpg"
+			],
+			"rating": {
+				"average": 4.8,
+				"reviews": 124
+			},
+			"availability": {
+				"nextAvailable": "2024-01-15",
+				"seasonality": ["Spring", "Summer"]
+			}
+		}
+	]
+}
