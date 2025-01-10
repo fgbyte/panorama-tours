@@ -98,7 +98,10 @@ export default function TourContent({ id }: { id: string }) {
 									</div>
 								))
 							: tour.itinerary.map((day) => (
-									<ul key={day.day} className="list-disc list-inside">
+									<ul
+										key={day.day}
+										className="list-disc list-inside flex flex-col gap-2"
+									>
 										{day.activities.map((activity, index) => (
 											<li key={index}>{activity}</li>
 										))}
@@ -110,7 +113,7 @@ export default function TourContent({ id }: { id: string }) {
 							At least {tour.id === "tour_001" ? 2 : 3} days in advance
 						</p>
 
-						<Button className="py-6 sm:w-1/2 hover:bg-green-00">
+						<Button className="py-6 sm:w-1/2 hover:bg-green-500">
 							<Link
 								className="flex items-center gap-2 justify-center"
 								href={`https://wa.me/41796915893?text=*${id}*%20Hello%20I%20am%20interested%20in%20your%20Tour%20`}
