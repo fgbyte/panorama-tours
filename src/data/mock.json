@@ -17,7 +17,14 @@
 			"location": {
 				"country": "Cuba",
 				"region": "Matanzas City",
-				"startingPoint": "Parque de la Libertad"
+				"startingPoint": {
+					"title": "Parque de la Libertad, Matanzas.",
+					"url": "https://maps.app.goo.gl/8bRLd3tAPfy6VrwYA",
+					"coordinates": {
+						"latitude": "-11.5769",
+						"longitude": "-85.5267"
+					}
+				}
 			},
 			"included": [
 				"Entrance fees 💸",
