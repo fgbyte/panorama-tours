@@ -3,7 +3,6 @@ import { SquareArrowOutUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { WhatsAppIcon } from "./Icons";
-import GoogleMapLocation from "./google-map-location";
 
 const mapApiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
 
@@ -55,6 +54,7 @@ export default function TourContent({ id }: { id: string }) {
 					<h2 className="text-2xl font-bold mb-4">What's Included</h2>
 					<ul className="list-disc list-inside">
 						{tour.included.map((item, index) => (
+							// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 							<li key={index} className="mb-2">
 								{item}
 							</li>
@@ -99,6 +99,7 @@ export default function TourContent({ id }: { id: string }) {
 										</h3>
 										<ul className="list-disc list-inside mt-2">
 											{day.activities.map((activity, index) => (
+												// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 												<li key={index}>{activity}</li>
 											))}
 										</ul>
@@ -110,6 +111,7 @@ export default function TourContent({ id }: { id: string }) {
 										className="list-disc list-inside flex flex-col gap-2"
 									>
 										{day.activities.map((activity, index) => (
+											// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 											<li key={index}>{activity}</li>
 										))}
 									</ul>
