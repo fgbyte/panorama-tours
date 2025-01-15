@@ -2,8 +2,8 @@
 	"tours": [
 		{
 			"id": "tour_001",
-			"name": "Amazon Rainforest Adventure",
-			"description": "Explore the stunning Amazon rainforest with expert guides. Experience wildlife encounters and indigenous culture.",
+			"name": "Walk around Historic Center of Matanzas",
+			"description": "Discover the vibrant history and culture of Matanzas, Cuba, on our tour. Known as the City of Bridges for its crossings over the Yumuri, San Juan, and Canimar rivers, Matanzas boasts a rich architectural heritage. Stroll through charming streets lined with colorful colonial-era buildings, and visit landmarks like the Sauto Theater, a National Monument of Cuba renowned for its neoclassical design. Explore the Pharmaceutical Museum, established in 1882, offering a glimpse into 19th-century medical practices. Experience the city's Afro-Cuban roots, as Matanzas is the birthplace of the danzón and rumba music and dance traditions. Join us to immerse yourself in the unique blend of history, culture, and color that defines Matanzas.  ",
 			"duration": {
 				"days": 0,
 				"nights": 0,
@@ -15,28 +15,45 @@
 				"perPerson": true
 			},
 			"location": {
-				"country": "Peru",
-				"region": "Amazon",
-				"startingPoint": "Puerto Maldonado"
+				"country": "Cuba",
+				"region": "Matanzas City",
+				"startingPoint": "Parque de la Libertad"
 			},
 			"included": [
-				"Airport transfers",
-				"Accommodation",
-				"Meals",
-				"Guide services",
-				"Local transportation"
+				"Entrance fees 💸",
+				"Guide services 🧑🗺️",
+				"Photography services 📸"
 			],
 			"itinerary": [
 				{
 					"day": 0,
-					"title": "Arrival and Welcome",
-					"activities": ["Airport pickup", "Lodge check-in", "Welcome dinner"]
+					"title": "",
+					"activities": [
+						"Visit to the Pharmaceutical Museum",
+						"Walk Through Popular Neighborhoods",
+						"Visit to the Sauto Theater",
+						"Walk Along the Narváez Riverside"
+					]
 				}
 			],
-			"difficulty": "moderate",
-			"maxGroupSize": 5,
+			"difficulty": "easy",
+			"maxGroupSize": 6,
 			"languages": ["English", "Spanish"],
-			"images": ["images/1.jpg", "images/2.jpg"],
+			"images": [
+				"tours/001/_MG_0367.webp",
+				"tours/001/_MG_0287.webp",
+				"tours/001/_MG_0025.webp",
+				"tours/001/_MG_0231.webp",
+				"tours/001/_MG_0265.webp",
+				"tours/001/_MG_0320.webp",
+				"tours/001/_MG_0377.webp",
+				"tours/001/_MG_0462.webp",
+				"tours/001/_MG_0418.webp",
+				"tours/001/_MG_0551.webp",
+				"tours/001/DSCF3565.webp",
+				"tours/001/DSCF3661.webp",
+				"tours/001/_MG_0564.webp"
+			],
 			"rating": {
 				"average": 4.8,
 				"reviews": 124,
@@ -99,7 +116,7 @@
 			"difficulty": "challenging",
 			"maxGroupSize": 8,
 			"languages": ["English", "Spanish", "French"],
-			"images": ["images/2.jpg", "images/1.jpg"],
+			"images": ["tours/001/_MG_0287.webp", "tours/001/_MG_0287.webp"],
 			"rating": {
 				"average": 4.9,
 				"reviews": 89,

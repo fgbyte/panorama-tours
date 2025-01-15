@@ -21,11 +21,12 @@ export function TourPreview({ tour }: { tour: Tour }) {
 	return (
 		<div className="break-words">
 			<Link href={`/tours/${tour.id}`}>
-				<div className="aspect-[16/9] relative">
+				<div className="aspect-[16/10] relative">
 					<Image
 						alt={tour.title}
-						className="object-cover"
-						src={`/tours/${tour.images}` || "/placeholder.webp"}
+						sizes="(max-width: 768px) 100vw, 50vw"
+						className="object-cover rounded-lg"
+						src={`/${tour.images}` || "/placeholder.webp"}
 						fill
 					/>
 				</div>
