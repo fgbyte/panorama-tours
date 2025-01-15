@@ -86,9 +86,16 @@
 				"perPerson": true
 			},
 			"location": {
-				"country": "Peru",
-				"region": "Cusco",
-				"startingPoint": "Cusco City"
+				"country": "Cuba",
+				"region": "Matanzas City",
+				"startingPoint": {
+					"title": "Parque de la Libertad, Matanzas.",
+					"url": "https://maps.app.goo.gl/8bRLd3tAPfy6VrwYA",
+					"coordinates": {
+						"latitude": "-11.5769",
+						"longitude": "-85.5267"
+					}
+				}
 			},
 			"included": [
 				"Hotel accommodation",
