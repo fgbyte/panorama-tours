@@ -117,16 +117,13 @@ export default function TourContent({ id }: { id: string }) {
 						<p className="text-red-600 text-center sm:text-start font-semibold">
 							At least {tour.id === "tour_001" ? 2 : 3} days in advance
 						</p>
-
-						<Button className="py-6 sm:w-1/2 hover:bg-green-500">
-							<Link
-								className="flex items-center gap-2 justify-center"
-								href={`https://wa.me/${phone}?text=*${id}*%20Hello%20I%20am%20interested%20in%20your%20Tour%20`}
-							>
-								<WhatsAppIcon />
-								Book Tour
-							</Link>
-						</Button>
+						<Link
+							className="py-6 rounded-lg max-h-4 text-white font-semibold text-sm bg-black sm:w-1/2 hover:bg-green-500 flex items-center gap-2 justify-center"
+							href={`https://wa.me/${phone}?text=*${id}*%20Hello%20I%20am%20interested%20in%20your%20Tour%20`}
+						>
+							<WhatsAppIcon />
+							Book Tour
+						</Link>
 					</div>
 				</div>
 			</div>
