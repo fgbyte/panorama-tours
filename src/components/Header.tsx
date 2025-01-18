@@ -76,15 +76,13 @@ export const Navigation: FunctionComponent = () => {
 export const Header: FunctionComponent = () => {
 	return (
 		<section className="flex items-center justify-between mt-8 md:mt-16 mb-12">
-			{/* <Link href="/">
-				<Avatar className="w-14 h-14 sm:w-20 sm:h-20">
-					<AvatarImage src="/images/logo.webp" alt="Logo" />
-				</Avatar>
-			</Link> */}
-			<Link href="/">
+			<Link className="flex items-center gap-2" href="/">
 				<h1 className="text-4xl md:text-5xl font-bold tracking-tighter leading-tight">
 					{config.blog.name}🧭
 				</h1>
+				{/* <Avatar className="w-14 h-14 sm:w-20 sm:h-20">
+					<AvatarImage src="/logo-yellow.webp" alt="Logo" />
+				</Avatar> */}
 			</Link>
 			<Navigation />
 		</section>
