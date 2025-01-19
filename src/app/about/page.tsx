@@ -9,19 +9,21 @@ const images = [
 	"images/IMG_9522.webp",
 	"images/IMG_9575.webp",
 	"images/_MG_2243.webp",
+	"images/_MG_9593.webp",
 	"images/IMG_9526.webp",
+	"images/_MG_0101.webp",
 	"images/_MG_0092.webp",
 	"images/IMG_9532.webp",
 	"images/IMG_9544.webp",
 	"images/_MG_0098.webp",
 	"images/IMG_9564.webp",
 	"images/IMG_9550.webp",
-	"images/_MG_0094.webp",
 ];
 
 const content = `
-Discover the charm of Matanzas from our cozy private terrace home.
-Located in a quiet and central area, this accommodation offers a unique experience with bright rooms, authentic decor, and a perfect outdoor space to relax. Ideal for couples or travelers who are looking for comfort and a home environment. Enjoy local hospitality and proximity to the city's main attractions. Your perfect retreat awaits!
+Escape to our cozy terrace home, a hidden gem in the quiet yet central heart of Matanzas. Immerse yourself in a space filled with natural light, authentic decor, and a private outdoor terrace that invites you to slow down and savor the moment.
+
+Whether you’re a couple or a solo traveler, this home offers the perfect mix of comfort and hospitality. Just steps away from Matanzas’ main attractions, you’ll find everything you need for a memorable stay.
 
 ## The space
 Our rooms are designed to offer comfort and privacy. Each account features:
