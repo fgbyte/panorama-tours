@@ -29,7 +29,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<head>
-				<link rel="icon" href="/favicon.ico" sizes="any" />
+				<link rel="icon" href="/logo-yellow.webp" />
 			</head>
 			<body
 				className={`min-h-screen bg-background font-sans antialiased max-w-6xl m-auto text-black
