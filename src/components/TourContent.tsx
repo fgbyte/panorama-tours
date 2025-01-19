@@ -113,8 +113,18 @@ export default function TourContent({ id }: { id: string }) {
 										className="list-disc list-inside flex flex-col gap-2"
 									>
 										{day.activities.map((activity, index) => (
-											// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-											<li key={index}>{activity}</li>
+											<li
+												className={
+													activity ===
+													"Transportation is NOT included in the price"
+														? "text-blue-600 font-semibold"
+														: ""
+												}
+												// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+												key={index}
+											>
+												{activity}
+											</li>
 										))}
 									</ul>
 								))}
@@ -123,14 +133,21 @@ export default function TourContent({ id }: { id: string }) {
 				{/* Start Point Section */}
 				<div>
 					<h2 className="text-2xl font-bold mb-2">Start Point</h2>
-					<Link
-						href={(tour.location.startingPoint as { url: string }).url}
-						target="_blank"
-						className=" flex gap-1 items-center hover:text-green-800 cursor-pointer"
-					>
-						{`📌 ${(tour.location.startingPoint as { title: string }).title}`}
-						<SquareArrowOutUpRight className="w-4 h-4" />
-					</Link>
+					{tour.location.startingPoint.url ? (
+						<Link
+							href={(tour.location.startingPoint as { url: string }).url}
+							target="_blank"
+							className=" flex gap-1 items-center hover:text-green-800 cursor-pointer"
+						>
+							{`📌 ${(tour.location.startingPoint as { title: string }).title}`}
+							<SquareArrowOutUpRight className="w-4 h-4" />
+						</Link>
+					) : (
+						<p className="">
+							{(tour.location.startingPoint as { title: string }).title}
+						</p>
+					)}
+
 					{/* Contact Button */}
 					<div className="flex flex-col gap-2 mt-8">
 						<p className="text-red-600 text-center sm:text-start font-semibold">

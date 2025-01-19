@@ -85,7 +85,7 @@ const Page = async () => {
 						Book your stay with us and save 20% on all our tours
 					</p>
 					<Link
-						className="py-6 rounded-lg max-h-4 text-white font-semibold text-base bg-black sm:w-1/2 hover:bg-green-500 flex items-center gap-2 justify-center no-underline"
+						className="py-6 px-6 rounded-lg max-h-4 text-white font-semibold text-base bg-black sm:w-1/2 hover:bg-green-500 flex items-center gap-2 justify-center no-underline"
 						href="http://airbnb.com/h/panorama-b-b"
 						target="_blank"
 					>

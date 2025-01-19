@@ -2,8 +2,8 @@
 	"tours": [
 		{
 			"id": "tour_001",
-			"name": "Walk and Photos around Historic Center of Matanzas",
-			"description": "Discover the vibrant history and culture of Matanzas, Cuba, on our tour. Known as the City of Bridges for its crossings over the Yumuri, San Juan, and Canimar rivers, Matanzas boasts a rich architectural heritage. Stroll through charming streets lined with colorful colonial-era buildings, and visit landmarks like the Sauto Theater, a National Monument of Cuba renowned for its neoclassical design. Explore the Pharmaceutical Museum, established in 1882, offering a glimpse into 19th-century medical practices. Experience the city's Afro-Cuban roots, as Matanzas is the birthplace of the danzón and rumba music and dance traditions. Join us to immerse yourself in the unique blend of history, culture, and color that defines Matanzas.  ",
+			"name": "A Photographic Journey Through Matanzas' Historic Center",
+			"description": "Explore Matanzas, the City of Bridges, where vibrant history meets Afro-Cuban culture. Stroll through charming streets with colonial architecture, visit landmarks like the Sauto Theater and the 1882 Pharmaceutical Museum, and soak in the city’s rich heritage. As the birthplace of danzón and rumba, Matanzas is alive with rhythm and tradition. Enhance your experience with our photography service, capturing your journey against the city’s stunning backdrops. Join us for a unique blend of culture, history, and unforgettable memories!",
 			"duration": {
 				"days": 0,
 				"nights": 0,
@@ -29,7 +29,8 @@
 			"included": [
 				"Entrance fees 💸",
 				"Guide services 🧑🗺️",
-				"Photography services 📸"
+				"Photography services 📸",
+				"Photo Delivery in 72hrs ⌛"
 			],
 			"itinerary": [
 				{
@@ -73,8 +74,8 @@
 		},
 		{
 			"id": "tour_002",
-			"name": "Photoshoot in Matanzas",
-			"description": "Discover the ancient Inca civilization through a guided trek to Machu Picchu. Experience breathtaking mountain views and archaeological wonders.",
+			"name": "Exclusive Photoshoot Experience",
+			"description": "Transform your moments into timeless photos with our expert photography and makeup services. Look flawless with professional guidance in poses and picturesque locations. Select your favorites from a preview gallery, with polished, high-quality digital images delivered in under a week. Perfect for engagements, portraits, or special occasions.",
 			"duration": {
 				"days": 0,
 				"nights": 0,
@@ -87,40 +88,38 @@
 			},
 			"location": {
 				"country": "Cuba",
-				"region": "Matanzas City",
+				"region": "Matanzas & Varadero",
 				"startingPoint": {
-					"title": "Parque de la Libertad, Matanzas.",
-					"url": "https://maps.app.goo.gl/8bRLd3tAPfy6VrwYA",
+					"title": "Wherever you prefer us to pick you up 😊",
+					"url": null,
 					"coordinates": {
-						"latitude": "-11.5769",
-						"longitude": "-85.5267"
+						"latitude": null,
+						"longitude": null
 					}
 				}
 			},
 			"included": [
-				"Professional Photography services 📸",
+				"Professional Photography Services 📸",
+				"Glamorous Makeup Services 💄",
 				"20 Edited Photos on Digital Format ✨",
-				"Professional MakeUp 💄",
-				"Entrance fees",
-				"Breakfast and dinner",
-				"Camping equipment",
-				"Porter service"
+				"Photo Delivery in 1 Week ⌛"
 			],
 			"itinerary": [
 				{
 					"day": 0,
 					"title": "",
 					"activities": [
-						"Airport reception",
-						"Hotel check-in",
-						"City tour orientation",
-						"Welcome dinner"
+						"Makeup Session",
+						"Travel to Photoshoot Location",
+						"Transportation is NOT included in the price",
+						"Photoshoot Session",
+						"Return to Start Point"
 					]
 				}
 			],
 			"difficulty": null,
 			"maxGroupSize": 2,
-			"languages": ["English", "Spanish", "French"],
+			"languages": ["English", "Spanish"],
 			"images": [
 				"tours/002/_MG_8040.webp",
 				"tours/002/IMG_9089.webp",
