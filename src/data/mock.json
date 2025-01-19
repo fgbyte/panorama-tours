@@ -2,7 +2,7 @@
 	"tours": [
 		{
 			"id": "tour_001",
-			"name": "Walk around Historic Center of Matanzas",
+			"name": "Walk and Photos around Historic Center of Matanzas",
 			"description": "Discover the vibrant history and culture of Matanzas, Cuba, on our tour. Known as the City of Bridges for its crossings over the Yumuri, San Juan, and Canimar rivers, Matanzas boasts a rich architectural heritage. Stroll through charming streets lined with colorful colonial-era buildings, and visit landmarks like the Sauto Theater, a National Monument of Cuba renowned for its neoclassical design. Explore the Pharmaceutical Museum, established in 1882, offering a glimpse into 19th-century medical practices. Experience the city's Afro-Cuban roots, as Matanzas is the birthplace of the danzón and rumba music and dance traditions. Join us to immerse yourself in the unique blend of history, culture, and color that defines Matanzas.  ",
 			"duration": {
 				"days": 0,
@@ -10,7 +10,7 @@
 				"hours": 2
 			},
 			"price": {
-				"amount": 200,
+				"amount": 60,
 				"currency": "USD",
 				"perPerson": true
 			},
@@ -73,15 +73,15 @@
 		},
 		{
 			"id": "tour_002",
-			"name": "Machu Picchu Heritage Trek",
+			"name": "Photoshoot in Matanzas",
 			"description": "Discover the ancient Inca civilization through a guided trek to Machu Picchu. Experience breathtaking mountain views and archaeological wonders.",
 			"duration": {
-				"days": 7,
-				"nights": 6,
-				"hours": 0
+				"days": 0,
+				"nights": 0,
+				"hours": 2
 			},
 			"price": {
-				"amount": 300,
+				"amount": 120,
 				"currency": "USD",
 				"perPerson": true
 			},
@@ -98,9 +98,9 @@
 				}
 			},
 			"included": [
-				"Hotel accommodation",
-				"Professional guide",
-				"Train tickets",
+				"Professional Photography services 📸",
+				"20 Edited Photos on Digital Format ✨",
+				"Professional MakeUp 💄",
 				"Entrance fees",
 				"Breakfast and dinner",
 				"Camping equipment",
@@ -108,29 +108,34 @@
 			],
 			"itinerary": [
 				{
-					"day": 1,
-					"title": "Cusco Arrival",
+					"day": 0,
+					"title": "",
 					"activities": [
 						"Airport reception",
 						"Hotel check-in",
 						"City tour orientation",
 						"Welcome dinner"
 					]
-				},
-				{
-					"day": 2,
-					"title": "Sacred Valley Exploration",
-					"activities": [
-						"Pisac ruins visit",
-						"Local market exploration",
-						"Ollantaytambo fortress"
-					]
 				}
 			],
-			"difficulty": "challenging",
-			"maxGroupSize": 8,
+			"difficulty": null,
+			"maxGroupSize": 2,
 			"languages": ["English", "Spanish", "French"],
-			"images": ["tours/001/_MG_0287.webp", "tours/001/_MG_0287.webp"],
+			"images": [
+				"tours/002/_MG_8040.webp",
+				"tours/002/IMG_9089.webp",
+				"tours/002/_MG_0288.webp",
+				"tours/002/_MG_1733.webp",
+				"tours/002/_MG_6309.webp",
+				"tours/002/_MG_8029.webp",
+				"tours/002/_MG_1689.webp",
+				"tours/002/IMG_0045.webp",
+				"tours/002/IMG_9386.webp",
+				"tours/002/_MG_8303.webp",
+				"tours/002/_MG_8315.webp",
+				"tours/002/IMG_9592.webp",
+				"tours/002/IMG_0656.webp"
+			],
 			"rating": {
 				"average": 4.9,
 				"reviews": 89,

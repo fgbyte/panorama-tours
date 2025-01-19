@@ -64,10 +64,12 @@ export default function TourContent({ id }: { id: string }) {
 				<div>
 					<h2 className="text-2xl font-bold mb-4">Tour Information</h2>
 					<div className="space-y-2">
-						<p>
-							<span className="font-semibold">Difficulty:</span>{" "}
-							{tour.difficulty}
-						</p>
+						{tour.difficulty && (
+							<p>
+								<span className="font-semibold">Difficulty:</span>{" "}
+								{tour.difficulty}
+							</p>
+						)}
 						<p>
 							<span className="font-semibold">Max Group Size:</span>{" "}
 							{tour.maxGroupSize}
