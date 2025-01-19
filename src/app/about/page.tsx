@@ -9,7 +9,6 @@ const images = [
 	"images/IMG_9522.webp",
 	"images/IMG_9575.webp",
 	"images/_MG_2243.webp",
-	"images/_MG_9593.webp",
 	"images/IMG_9526.webp",
 	"images/_MG_0101.webp",
 	"images/_MG_0092.webp",
