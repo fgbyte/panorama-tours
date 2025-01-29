@@ -1,5 +1,5 @@
 import mock from "@/data/mock.json";
-import { SquareArrowOutUpRight } from "lucide-react";
+import { OctagonAlertIcon, SquareArrowOutUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { WhatsAppIcon } from "./Icons";
@@ -83,6 +83,32 @@ export default function TourContent({ id }: { id: string }) {
 						</p>
 					</div>
 				</div>
+				{tour.requirements && (
+					<div>
+						<h2 className="text-2xl font-bold mb-4">
+							{tour.requirements.title}
+						</h2>
+						<ul className="list-disc list-inside">
+							{tour.requirements.items.map((item, index) => (
+								// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+								<li key={index} className="mb-2">
+									{item}
+								</li>
+							))}
+						</ul>
+					</div>
+				)}
+				{tour.additionalInfo && (
+					<div>
+						<h2 className="text-2xl font-bold mb-4 flex gap-2 items-center">
+							{tour.additionalInfo.title}
+							<OctagonAlertIcon className="w-5 h-5 text-orange-400 mt-1" />
+						</h2>
+						<ul className="list-disc list-inside">
+							<p>{tour.additionalInfo.info}</p>
+						</ul>
+					</div>
+				)}
 			</div>
 
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">

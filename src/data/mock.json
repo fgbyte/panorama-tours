@@ -10,7 +10,7 @@
 				"hours": 2
 			},
 			"price": {
-				"amount": 60,
+				"amount": 50,
 				"currency": "USD",
 				"perPerson": true
 			},
@@ -70,6 +70,95 @@
 			"availability": {
 				"nextAvailable": "2024-01-15",
 				"seasonality": ["Spring", "Summer"]
+			}
+		},
+		{
+			"id": "tour_003",
+			"name": "Authentic adventure in the Yumuri Valley",
+			"description": "Our adventure begins with a warm welcome before we ride in a classic American car to the breathtaking Yumurí Valley. Enjoy a refreshing cocktail, explore the ranch, meet the animals, and stroll through lush gardens. Then, embark on a 90-minute horseback ride. After a delicious homemade snack, we’ll return, concluding this unforgettable experience.",
+			"duration": {
+				"days": 0,
+				"nights": 0,
+				"hours": 4
+			},
+			"price": {
+				"amount": 80,
+				"currency": "USD",
+				"perPerson": true
+			},
+			"location": {
+				"country": "Cuba",
+				"region": "Matanzas, Yumurí Valley",
+				"startingPoint": {
+					"title": "Parque de la Libertad, Matanzas.",
+					"url": "https://maps.app.goo.gl/8bRLd3tAPfy6VrwYA",
+					"coordinates": {
+						"latitude": "-11.5769",
+						"longitude": "-85.5267"
+					}
+				}
+			},
+			"included": ["Transportation 🚗", "Food (fruits, snacks, others) 🍴"],
+			"itinerary": [
+				{
+					"day": 0,
+					"title": "",
+					"activities": [
+						"Meeting Point & Introduction",
+						"Scenic Drive",
+						"Welcome Reception",
+						"Ranch Tour",
+						"Horseback Riding",
+						"Snack Break",
+						"Return Trip"
+					]
+				}
+			],
+			"difficulty": "moderate",
+			"maxGroupSize": 5,
+			"languages": ["English", "Spanish"],
+			"requirements": {
+				"title": "What should the participants bring?",
+				"items": [
+					"Comfortable and lightweight clothing",
+					"Comfortable shoes suitable for hiking",
+					"Hat or cap",
+					"Sunscreen",
+					"Insect repellent",
+					"Water bottle",
+					"Camera or smartphone",
+					"Portable charger (optional)"
+				]
+			},
+			"additionalInfo": {
+				"title": "Additional Info",
+				"info": "The activity requires a minimum of 2 participants to take place. Your safety is of utmost importance!!! If your mobility is limited, you have back problems, have recently undergone surgery, or are pregnant, we recommend that you reconsider doing this activity. We reserve the right not to provide the service if the person is intoxicated or if we see that they have any physical problem that prevents them from performing the activity correctly."
+			},
+			"images": [
+				"tours/003/1.webp",
+				"tours/003/2.webp",
+				"tours/003/3.webp",
+				"tours/003/4.webp",
+				"tours/003/5.webp",
+				"tours/003/6.webp",
+				"tours/003/7.webp",
+				"tours/003/8.webp",
+				"tours/003/9.webp",
+				"tours/003/10.webp",
+				"tours/003/11.webp",
+				"tours/003/12.webp",
+				"tours/003/13.webp",
+				"tours/003/14.webp",
+				"tours/003/15.webp"
+			],
+			"rating": {
+				"average": 4.9,
+				"reviews": 89,
+				"stars": "⭐⭐⭐⭐⭐"
+			},
+			"availability": {
+				"nextAvailable": "2024-02-01",
+				"seasonality": ["Spring", "Summer", "Fall"]
 			}
 		},
 		{
